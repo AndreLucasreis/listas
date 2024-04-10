@@ -1,0 +1,22 @@
+/* 
+Lista 2
+questao 6
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+   int a;
+   int b;
+   cin >> a; cin >> b;
+   if (a % b == 0) {
+        cout << a << " e multiplo de " << b << endl;
+    } else {
+        cout << a << " não e multiplo de " << b << endl;
+    }
+
+   
+   
+}
