@@ -1,0 +1,21 @@
+/* 
+Lista 2
+questao 8
+Aluno: André Lucas
+*/
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    float a;
+    float b;
+    cout << "insira os catetos a e b\n";
+    cin >> a >> b;
+    float hipotenusa;
+    hipotenusa = (a*a)+(b*b);
+    hipotenusa = sqrt(hipotenusa);
+    cout << hipotenusa;
+    return 0;
+}
