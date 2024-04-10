@@ -1,0 +1,88 @@
+1 - Categorize cada um dos seguintes itens como hardware ou software:
+  1. CPU: hardware
+  2. Disco rígido: hardware
+  3. Programa Word: software
+  4. Instagram: software
+  5. Teclado: hardware
+
+2 - O que é software e qual sua importância?
+    software sâo programas que dependem dos hardwares para existir e sâo usados de diversas formas, desde aplicativos até integrantes de sistemas computacionais.
+
+3 - Defina com suas próprias palavras o que é algoritmo.
+    algoritimo é uma sequencia de açoes para se resolver qualquer problema.
+
+4 - Cite exemplos de software usados na medicina, ciência no
+entretenimento que você conhece.
+    programas de maquinas de raio X, usado em computadores quanticos, aplicativos de streaming.
+
+5 - Quais softwares deixa sua vida mais fácil? Quais deixam sua vida
+mais complicada?
+    o softare do telegram e do whatsapp ajudam minha vida, enquanto o softare das cameras de transito do detran dificultam minha volta pra casa.
+
+6 - Considere uma atividade de sua rotina diária. Como a computação
+está direta ou indiretamente envolvida?
+    diariamente estudo pelo meu computador, fazendo a computaçao algo indispensavel
+
+7 - A partir de sua experiência pessoal, descreva uma atividade que não
+seria possível sem computadores.
+    mineraçao de bitcoins
+
+8 - Faça uma Lista programas que você utiliza.
+    whatsapp
+    google
+    max
+    
+9 - Faça uma lista com dez atividades que não utilizam computadores de
+nenhuma maneira.
+    partida de futebol amistosa
+    preparo de um pastel
+    corrida na praia
+    banho de piscina
+    dormir
+    andar de bicicleta
+    comer um pastel
+    tomar um açai
+    fazer trilha na mata
+    acampar
+
+10 - Você acha que a inteligência artificial vai acabar com empregos na
+área da computação? Justifique.  
+    creio que a IA ainda vai precisar de assistencia humana na programaçao pelos proximos 20 a 25 anos, mas ela diminuira o numero de programadores siguinificativamente
+
+11 - Descreva a capacidade de seu computador em termos de
+processamento, memória e armazenamento.
+    meu computador tem 1 tera de memoria, processador I7 de setima geraçao e 32GB de RAM
+
+12 - Descreva um algoritmo para resolver um cubo mágico.
+    pegue o cubo magico, analise o cubo magico, gire as laterais do cubo de forma que agrupe masi cores iguais, mude a posiçao do cubo na sua mao, repita até todos os lados terem todas as cores agrupadas
+13 - Qual a diferença entre bit e byte?
+    bit é um valor que pode ser 1 ou 0, porem um byte é um agrupamento de até 8 bits
+
+14 - Como representar números reais usando sistema binário?
+    contando da direita para a esquerda, basta apenas elevar o numero 2 a posiçao em que o primeiro numero da direita esta -1 e multiplicalo pelo mesmo, somando com os numeros seguintes ja multiplicados por 2^n
+    ex: o numero 010 como numero real seria 0*2¹-¹ + 1*2²-¹ + 0*2³-¹ = 2
+
+15 - Descreva os passos para converter o número decimal 150 para sua
+representação em binário.
+0 = 0
+1 = 1
+10 = 2
+11 = 3
+100 = 4
+.
+.
+.
+10010110 = 150
+
+16 - Descreva o papel do scrum master, dono do produto e do time de
+desenvolvimento.
+    É o responsavel por ajudar um time a concluir suas tarefas
+    é responsavel por cordenar transaçoes
+    é responsavel por produzir ou desenvolver o produto
+
+17 - Descreva os comandos para mover, copiar, e remover arquivos
+usando linha de comando no sistema operacional que você utiliza.
+uso o botao  direito do mouse
+
+18 - Qual o padrão IEEE para redes WiFi? E para o Bluetooth?
+ a IEEE estabeleceu as bases para outro tipo de rede sem fio por meio de ondas de rádio: as normas 802.15.1, que correspondem ao Bluetooth.
