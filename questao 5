@@ -1,0 +1,20 @@
+/* 
+Lista 2
+questao 5
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+   float a;
+   float b;
+   cout << "insira a largura e o comprimento da sala\n";
+   cin >> a; cin >> b;
+   float area;
+   area = a * b;
+   cout << "area = " << area << "Um(unidade de medida)";
+   
+   
+}
