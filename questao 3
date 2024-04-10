@@ -1,0 +1,25 @@
+* 
+Lista 3
+questao 3
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+	//cout << "Calculadora de custo álcool x gaolina\n";
+	string numero;
+	cin >> numero;
+	string novonumero;
+	novonumero = numero;
+	reverse(novonumero.begin(), novonumero.end());
+	if (novonumero == numero){
+	cout << "e palindromo\n";	
+} 
+	else {
+		cout << "nao e palindromo\n";
+}
+}
