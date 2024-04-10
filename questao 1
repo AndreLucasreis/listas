@@ -1,0 +1,20 @@
+/* 
+Lista 3
+questao 1
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int litros;
+	int km;
+	cin >> litros >> km;
+	int kml;
+	kml = km/litros;
+	cout << "O carro faz " << kml << " km por Litro\n";
+	
+	
+}
