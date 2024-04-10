@@ -1,0 +1,21 @@
+/* 
+Lista 3
+questao 2
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	//cout << "Calculadora de custo álcool x gaolina\n";
+	float etanol;
+	int gasolina;
+	cin >> etanol >> gasolina;
+	if ((etanol/gasolina) > 0.7){
+	cout << "melhor abastecer com gasolina\n";	
+} 
+	else {
+		cout << "melhor abastecer com alcool\n";
+}
+}
