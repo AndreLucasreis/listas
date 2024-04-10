@@ -1,0 +1,39 @@
+/* 
+Lista 2
+questao 9
+Aluno: André Lucas
+*/
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    float a;
+    cin >> a;
+    float custo = 0;
+    
+    if (a <= 50) {
+    	custo = a * 1.75;
+	
+    } else if (a >= 51) {
+    	if (a < 150) {
+		int b;
+    	b = a - 50;
+    	custo = 50 * 1.75 + b * 1.65;
+    }
+	
+	} 
+	if (a >= 150) {
+	
+		int b;
+		int c;
+		b = 100;
+		c = a - 150;
+		custo = 50 * 1.75 + b * 1.65 + 1.50 * c;
+	}
+	cout << custo;
+}
+   
+
+   
