@@ -1,0 +1,80 @@
+/* 
+Lista 2
+questao 4
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+   
+    char estrela = '*';
+    string linha(10, estrela);
+    // para o quadrado
+	
+	cout << linha << endl;
+	for (int i = 1; i <= 10;) {
+        cout << "*        *\n";
+        i += 1;
+    }
+    cout << linha <<  endl;
+    
+    // circulo oval
+    
+    string linha2(3, estrela);
+    cout << "   " << linha2 << endl;
+    
+    char espaco = ' ';
+    for (int i = 1; i <= 3;) {
+    	string espacos1(1+(i*2), espaco);
+    	string espacos2(3-i, espaco);
+        cout<< espacos2 << estrela << espacos1 << estrela << endl;
+        i += 1;
+    }
+    for (int i = 1; i <= 3;) {
+        cout<< "*       *"<< endl;
+        i += 1;
+    }
+    for (int i = 3; i >= 1;) {
+    	string espacos1(1+(i*2), espaco);
+    	string espacos2(3-i, espaco);
+        cout<< espacos2 << estrela << espacos1 << estrela << endl;
+        i -= 1;
+   }
+   cout << "   " << linha2 << endl;
+   
+   // seta
+   cout << "    " << estrela << endl;
+   for (int i = 1; i <= 2;){
+   	string seta(i+2, estrela);
+   	string espacos(4-i, espaco);
+   	cout << espacos << seta << endl;
+   	i += 2;
+   	}
+    cout << "  *****\n";
+    for (int i = 1; i <= 7;){
+    	cout << "    *\n";
+    	i += 1;
+	}
+	// losango
+	cout << endl;
+    cout << "    " << estrela << endl;
+    
+    for (int i = 1; i <= 3;) {
+    	string espacos1((i*2), espaco);
+    	string espacos2(3-i, espaco);
+        cout<< espacos2 << estrela << espacos1 << " "<< estrela << endl;
+        i += 1;
+   }
+    for (int i = 2; i >= 1;) {
+    	string espacos1(1+(i*2), espaco);
+    	string espacos2(3-i, espaco);
+        cout<< espacos2 << estrela << espacos1 << estrela << endl;
+        i -= 1;
+}
+        cout << "    " << estrela << endl;
+
+       	
+    
+}
