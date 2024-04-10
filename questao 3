@@ -1,0 +1,25 @@
+/* 
+Lista 2
+questao 3
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+   
+    cout << "forneca o Raio da circunferencia\n";
+    int Raio;
+    cin >> Raio;
+    int diametro;
+    diametro = Raio* 2;
+    int area;
+    area = 3.14159*(Raio^2);
+    
+    cout << "o diametro da circunferencia e " << diametro ;cout <<"\n"; 
+	cout << "A area da circunferencia e " << area ;cout <<"\n"; 
+	
+       
+    return 0;
+}
