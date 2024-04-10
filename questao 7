@@ -1,0 +1,38 @@
+/* 
+Lista 2
+questao 7
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    bool Primo = true;
+
+    cout << "Digite um nnmero inteiro\n ";
+    cin >> numero;
+
+    if (numero <= 1) {
+        Primo = false;
+    } else {
+        for (int i = 2; i * i <= numero; ++i) {
+            if (numero % i == 0) {
+                Primo = false;
+                break;
+            }
+        }
+    }
+
+    if (Primo) {
+        cout << numero << " e primo." << endl;
+    } else {
+        cout << numero << " nao e primo." << endl;
+    }
+
+    return 0;
+}
+   
+
+   
