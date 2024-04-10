@@ -1,0 +1,23 @@
+/* 
+Lista 2
+questao 2
+Aluno: André Lucas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+   
+    cout << "DIgite dois valores inteiros\n";
+    int numero1;
+    int numero2;
+    cin >> numero1; cin >> numero2;
+    
+    cout << numero1 + numero2 ;cout <<"\n"; 
+	  cout << numero1 * numero2 ;cout <<"\n"; 
+	  cout << numero1 - numero2 ;cout <<"\n"; 
+	  cout << numero1 / numero2 ;cout <<"\n";
+       
+    return 0;
+}
