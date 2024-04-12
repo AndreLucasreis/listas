@@ -1,0 +1,20 @@
+/* 
+Lista 4
+questao 1
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+	int numero;
+	cin >> numero;
+	int r = 1;
+	for (int i = numero; i > 1; i--){
+		r *= i;
+	}
+	cout << r << endl;
+}
