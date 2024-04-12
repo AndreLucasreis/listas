@@ -1,0 +1,29 @@
+/* 
+Lista 3
+questao 8
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+  float numero1;
+  float numero2;
+  char sinal;
+  cin >> numero1 >> numero2 >> sinal;
+  if (sinal == '+'){
+  	cout << numero1 + numero2 << endl;
+  }
+  else if (sinal == '-'){
+  	cout << numero1 - numero2 << endl;
+  }
+  else if ( sinal == '*'){
+  	cout << numero1 * numero2 << endl;
+  }
+  else if (sinal == '/'){
+  	cout << numero1 / numero2 << endl;
+  }
+}
