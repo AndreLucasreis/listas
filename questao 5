@@ -1,0 +1,49 @@
+/* 
+Lista 3
+questao 3
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+  char letra;
+  cin >> letra;
+  int n;
+  if (letra = 'A' || letra == 'a'){
+  	n = 1;
+  }
+  if (letra = 'E'|| letra == 'e'){
+  	n = 2;
+  }
+  if (letra = 'I' || letra == 'i'){
+  	n = 3;
+  }
+  if (letra = 'O' || letra == 'o'){
+  	n = 4;
+  }
+  if (letra = 'U' || letra == 'u'){
+  	n = 5;
+  }
+  switch (n) {
+  case 1:
+    cout << "vogal" << endl;
+    break;
+  case 2:
+    cout << "vogal";
+    break;
+  case 3:
+    cout << "vogal";
+    break;
+  case 4:
+    cout << "vogal";
+    break;
+  case 5:
+    cout << "vogal";
+    break;
+  }
+  return 0;
+}
