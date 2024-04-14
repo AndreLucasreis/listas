@@ -1,0 +1,24 @@
+/* 
+Lista 4
+questao 5
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+	int i = 1;
+	char resposta = '*';
+	while (i < 6){
+		int numeroestrela;
+		cin >> numeroestrela;
+		string estrela(numeroestrela, resposta);
+		cout << estrela << endl;
+		i++;
+	}
+}
+	
+
