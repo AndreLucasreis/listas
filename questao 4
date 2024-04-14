@@ -1,0 +1,41 @@
+/* 
+Lista 4
+questao 4
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+	int i = 1;
+	string resposta = "";
+	while (i < 6){
+		int produto;
+		float venda;
+		cin >> produto >> venda;
+		switch(produto) {
+			case 1:
+				cout << "Produto 1 | " << "R$ " << venda*2.98 << endl;
+				break;
+			case 2:
+				cout << "Produto 2 | " << "R$ " << venda*4.50 << endl;
+				break;
+			case 3:
+				cout << "Produto 3 | " << "R$ " << venda*9.98 << endl;
+				break;
+			case 4:
+				cout << "Produto 4 | " << "R$ " << venda*4.49 << endl;
+				break;
+			case 5:
+				cout << "Produto 5 | " << "R$ " << venda*6.87 << endl;
+				break;
+		}
+		i++;
+	}
+	cout << resposta;
+}
+	
+
