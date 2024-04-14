@@ -1,0 +1,43 @@
+/* 
+Lista 4
+questao 2
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+	char x = '*';
+	char e = ' ';
+	cout << "A)\n";
+	for (int i = 1; i < 11; i++){
+		string estrela(i, x);
+		cout << estrela << "\n";
+	}
+	cout << "\n" << "B)" << endl;
+	for (int i = 10; i > 0; i--){
+		string estrela(i, x);
+		cout << estrela << "\n";
+	}
+	cout << "\n" << "C)" << endl;
+	int z = 0;
+	for (int i = 10; i > 0; i--){
+		string estrela(i, x);
+		string espaco(z, e);
+		cout << espaco << estrela << "\n";
+		z++;
+}
+	cout << "\n" << "D)" << endl;
+	int c = 10;
+	for (int i = 0; i < 10; i++){
+		string estrela(i, x);
+		string espaco(c, e);
+		cout << espaco << estrela << "\n";
+		c--;
+}
+}
+	
+
