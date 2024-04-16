@@ -1,0 +1,42 @@
+/* 
+Lista 5
+questao 2
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+	int p;
+	cin >> p;
+	int r = 0;
+	if (p == 1 || p == 0){
+		cout << "Nao e primo\n";
+	}
+	else if (p == 2){
+		cout << "e primo";
+		return 1;
+	}
+	else if ((p % 2) == 0) {
+        cout << "nao e primo";
+		}
+    else {
+    for (int i = 3; i <= 1+p; i += 2) {
+        if (p % i == 0) {
+        if (p != i){
+			cout << "Nao e primo";
+			break;
+			}
+        }
+		else {
+			cout << "e primo";
+			break;
+		}	
+    }
+}
+}
+	
+
