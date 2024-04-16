@@ -1,0 +1,22 @@
+/* 
+Lista 5
+questao 1
+Aluno: André Lucas
+*/
+#include <string>
+#include <algorithm>
+#include <bits/stdc++.h>	
+#include <iostream>
+using namespace std;
+
+int main() {
+	float c;
+	cout << "insira a temperatura em Celcius\n";
+	cin >> c;
+	float f;
+	f = (9*c)/5 + 32;
+	cout << f << " Celcius";
+	
+}
+	
+
